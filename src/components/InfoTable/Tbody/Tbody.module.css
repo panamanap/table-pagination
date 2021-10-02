@@ -1,0 +1,16 @@
+.tableData {
+  display: flex;
+  height: 100%;
+  justify-content: space-evenly;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.td {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+  width: 20vw;
+  height: 50px;
+}

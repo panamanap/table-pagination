@@ -1,0 +1,26 @@
+.pagesList {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 40px;
+}
+
+.pagesList li {
+  border: 1px solid #000;
+  width: 30px;
+  height: 40px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 5 ease-in-out;
+  transition-duration: .2s;
+}
+
+.pagesList li:active {
+ 
+  transform: scale(.9);
+}
